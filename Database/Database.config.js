@@ -4,7 +4,7 @@ const fs = require('fs');
 mongoose.Promise = global.Promise
 //var ca = [fs.readFileSync(__dirname+'/rds-combined-ca-bundle.pem')];
 
-const url = 'mongodb://Sample:<12345678>@docdb-2019-07-30-08-45-53.cluster-czognfvnmvja.us-east-1.docdb.amazonaws.com:27017'
+const url = 'mongodb://Sample:12345678@docdb-2019-07-30-08-45-53.cluster-czognfvnmvja.us-east-1.docdb.amazonaws.com:27017'
 
 //const url = 'mongodb://localhost:27017/TestDocument'
 

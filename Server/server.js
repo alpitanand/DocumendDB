@@ -11,6 +11,7 @@ var port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.send("hie");
+    
 })
 
 
@@ -47,7 +48,6 @@ app.post('/data', (req, res) => {
 
 
 })
-
 
 
 app.get('/data', (req, res) => {
